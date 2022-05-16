@@ -6,9 +6,14 @@ namespace Cse210Starter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Account accoint1 = new Account();
 
-            // Write your code here
+            account1.Deposit(50);
+
+            account1.Deposit(100);
+            account1.Withdraw(100);
+
+            Console.WriteLine($"{account1.GetBalance()}")
         }
     }
 }
